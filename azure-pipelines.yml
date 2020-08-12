@@ -28,7 +28,7 @@ steps:
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
-  workingDirectory: WebApplication1/wwwroot
+  workingDirectory: '**/WebApplication1/wwwroot'
 
 - task: DotNetCoreCLI@2
   displayName: 'Bild the project - Release'
