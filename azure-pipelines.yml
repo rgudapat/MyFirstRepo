@@ -26,14 +26,12 @@ steps:
   inputs: 
     verbose: false
 
-
 - task: DotNetCoreCLI@2
-  displayName: 'Bild the project - Release'
+  displayName: 'Restore project dependencies'
   inputs:
-    command: 'build'
-    arguments: '--no-restore --configuration release'
-    projects: '**/*.proj'
-    
+    command: 'restore'
+    projects: '**/*.csproj'
+
 - template: templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
