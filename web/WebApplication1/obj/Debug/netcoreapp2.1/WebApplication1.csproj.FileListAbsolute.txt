@@ -1,0 +1,14 @@
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.dev.json
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cache
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cs
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfoInputs.cache
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfo.cs
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
+C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb
