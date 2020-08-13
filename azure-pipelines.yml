@@ -26,9 +26,6 @@ steps:
   inputs: 
     verbose: false
 
-- script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
-  displayName: 'Write build info'
-  workingDirectory: WebApplication1/wwwroot
 
 - task: DotNetCoreCLI@2
   displayName: 'Bild the project - Release'
@@ -37,3 +34,14 @@ steps:
     arguments: '--no-restore --configuration release'
     projects: '**/*.proj'
     
+- template: templates/build.yml
+  parameters:
+    buildConfiguration: 'Debug'
+
+- template: templates/build.yml
+  parameters:
+    buildConfiguration: 'Release'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  condition: succeeded()
