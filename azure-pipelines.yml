@@ -16,15 +16,24 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET Core SDk  3.1.401'
+  displayName: 'Use .NET Core SDk  3.1.300'
   inputs:
     packageType: sdk
-    version:  3.1.401
+    version:  3.1.300
 
 - task: Npm@1
   displayName: 'Run npm install'
   inputs: 
     verbose: false
+
+- script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
+  displayName: 'Write build info'
+  workingDirectory: $(wwwrootDir)
+- task: DotNetCoreCLI@2
+  displayName: 'Restore project dependencies'
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - Release'
