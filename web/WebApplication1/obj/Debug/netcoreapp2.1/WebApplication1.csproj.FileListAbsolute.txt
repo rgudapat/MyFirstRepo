@@ -1,4 +1,3 @@
-C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
 C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
 C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
 C:\RD\GitSource\MyFirstRepo\Web\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json

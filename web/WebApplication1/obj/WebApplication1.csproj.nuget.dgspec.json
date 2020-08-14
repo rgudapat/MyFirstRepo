@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\rd\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\RD\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\rd\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\RD\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rd\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\RD\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\rd\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\RD\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\rgudapati\\.nuget\\packages\\",
-        "outputPath": "C:\\rd\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\obj\\",
+        "outputPath": "C:\\RD\\GitSource\\MyFirstRepo\\Web\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
